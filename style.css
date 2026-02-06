@@ -69,7 +69,8 @@ body {
   border: none;
   cursor: pointer;
 }
-.btn-Gdrive {
+
+.btn-gdrive {
   display: inline-block;
   background-color: #4285F4; /* warna biru khas Google */
   color: white;
@@ -81,7 +82,7 @@ body {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.btn-Gdrive:hover {
+.btn-gdrive:hover {
   background-color: #357ae8;
   transform: translateY(-2px);
   box-shadow: 0 6px 10px rgba(0,0,0,0.15);
