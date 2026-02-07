@@ -26,6 +26,10 @@ body {
   border-radius: 8px; /* biar ada sedikit sudut membulat */
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+.navbar img {
+  max-height: 40px;
+  width: auto;
+}
 
 .brand span {
   font-size: 1.5rem;
