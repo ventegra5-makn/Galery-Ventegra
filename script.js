@@ -102,6 +102,42 @@ window.addEventListener("scroll", () => {
 });
 
 // ============================
+const sectionObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+sections.forEach(sec => {
+  sec.classList.add("fade-in");
+  sectionObserver.observe(sec);
+});
+
+// ============================
+// GALLERY ANIMATION
+// ============================
+const imgObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+galleryImages.forEach(img => imgObserver.observe(img));
+
+// ============================
+// PARALLAX HERO
+// ============================
+window.addEventListener("scroll", () => {
+  const hero = document.querySelector(".hero");
+  let offset = window.scrollY;
+  hero.style.transform = `translateY(${offset * 0.15}px)`;
+});
+
+// ============================
 // GUESTBOOK (LOCAL STORAGE)
 // ============================
 const nameInput = document.getElementById("nameInput");
