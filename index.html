@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ventegra Archive 2026</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"  />
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Permanent+Marker&family=Patrick+Hand&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +19,7 @@
     <div class="nav-inner">
       <a href="#hero" class="brand">
         <img src="images/ventegralogo.jpg" alt="Ventegra Logo" class="logo">
-        <span class="brand-text">Ventegra</span>
+        <span class="brand-text">MAKN</span>
       </a>
 
       <button id="mobile-menu-btn" class="menu-btn">☰</button>
@@ -50,26 +52,26 @@
         </p>
         <div class="hero-buttons">
           <a href="#albums" class="btn primary">📷 Masuk Galeri</a>
-          <a href="#timeline" class="btn outline">📅 Lihat Timeline</a>
+          <a href="#timeline" class="btn primary">📅 Lihat Timeline</a>
         </div>
       </div>
 
       <!-- HERO POLAROIDS -->
       <div class="hero-polaroids">
         <div class="polaroid rotate-left">
-          <img src="images/angkatan3.jpg" alt="Hero Photo 1">
+          <img src="images/angkatan/8.jpg" alt="Hero Photo 1">
           <p>Best Friends!</p>
         </div>
         <div class="polaroid rotate-right">
-          <img src="images/angkatan2.jpg" alt="Hero Photo 2">
+          <img src="images/angkatan/2.jpg" alt="Hero Photo 2">
           <p>Graduation</p>
         </div>
         <div class="polaroid rotate-small">
-          <img src="images/hero3.jpg" alt="Hero Photo 3">
+          <img src="images/random/random1.jpg" alt="Hero Photo 3">
           <p>Class Party!</p>
         </div>
         <div class="polaroid rotate-more">
-          <img src="images/hero4.jpg" alt="Hero Photo 4">
+          <img src="images/angkatan/7.jpg" alt="Hero Photo 4">
           <p>Prakerin</p>
         </div>
       </div>
@@ -124,36 +126,80 @@
     <p class="section-desc">Klik foto untuk lihat besar.</p>
 
     <div class="gallery-grid" id="gallery-grid">
-      <!-- FOTO KELAS -->
-      <img class="gallery-img" data-category="kelas" src="images/angkatan1.jpg" alt="Angkatan 2">
-      <img class="gallery-img" data-category="kelas" src="images/angkatan2.jpg" alt="Angkatan 2">
-      <img class="gallery-img" data-category="kelas" src="images/angkatan3.jpg" alt="Angkatan 3">
-      <img class="gallery-img" data-category="kelas" src="images/angkatan4.jpg" alt="Angkatan 4">
+      <!-- FOTO ANGKATAN -->
+      <img class="gallery-img" data-category="kelas" src="images/angkatan/1.jpg" alt="Angkatan 1">
+      <img class="gallery-img" data-category="kelas" src="images/angkatan/2.jpg" alt="Angkatan 2">
+      <img class="gallery-img" data-category="kelas" src="images/angkatan/3.jpg" alt="Angkatan 3">
+      <img class="gallery-img" data-category="kelas" src="images/angkatan/4.jpg" alt="Angkatan 4">
+      <img class="gallery-img" data-category="kelas" src="images/angkatan/5.jpg" alt="Angkatan 5">
+      <img class="gallery-img" data-category="kelas" src="images/angkatan/6.jpg" alt="Angkatan 6">
+      <img class="gallery-img" data-category="kelas" src="images/angkatan/7.jpg" alt="Angkatan 7">
+      <img class="gallery-img" data-category="kelas" src="images/angkatan/8.jpg" alt="Angkatan 8">
 
-      <!-- STUDY TOUR -->
-      <img class="gallery-img" data-category="tour" src="images/tour1.jpg" alt="Tour 1">
-      <img class="gallery-img" data-category="tour" src="images/tour2.jpg" alt="Tour 2">
+      <!-- PRAKERIN -->
+      <img class="gallery-img" data-category="tour" src="images/prakerin/1.jpg" alt="Tour 1">
+      <img class="gallery-img" data-category="tour" src="images/prakerin/2.jpg" alt="Tour 2">
+      <img class="gallery-img" data-category="tour" src="images/prakerin/3.jpg" alt="Tour 3">
+      <img class="gallery-img" data-category="tour" src="images/prakerin/4.jpg" alt="Tour 4">
+      <img class="gallery-img" data-category="tour" src="images/prakerin/5.jpg" alt="Tour 5">
 
       <!-- EVENT -->
-      <img class="gallery-img" data-category="event" src="images/event1.jpg" alt="Event 1">
-      <img class="gallery-img" data-category="event" src="images/event2.jpg" alt="Event 2">
+      <img class="gallery-img" data-category="event" src="images/event/1.jpg" alt="Event 1">
+      <img class="gallery-img" data-category="event" src="images/event/2.jpg" alt="Event 2">
+      <img class="gallery-img" data-category="event" src="images/event/2.jpg" alt="Event 2">
+      <img class="gallery-img" data-category="event" src="images/event/3.jpg" alt="Event 3">
+      <img class="gallery-img" data-category="event" src="images/event/4.jpg" alt="Event 4">
+      <img class="gallery-img" data-category="event" src="images/event/5.jpg" alt="Event 5">
 
       <!-- RANDOM -->
-      <img class="gallery-img" data-category="random" src="images/random1.jpg" alt="Random 1">
-      <img class="gallery-img" data-category="random" src="images/random2.jpg" alt="Random 2">
+      <img class="gallery-img" data-category="random" src="images/random/random1.jpg" alt="Random 1">
+      <img class="gallery-img" data-category="random" src="images/random/random2.jpg" alt="Random 2">
+      <img class="gallery-img" data-category="random" src="images/random/random3.jpg" alt="Random 3">
+      <img class="gallery-img" data-category="random" src="images/random/random4.jpg" alt="Random 4">
+      <img class="gallery-img" data-category="random" src="images/random/random5.jpg" alt="Random 5">
+      <img class="gallery-img" data-category="random" src="images/random/random6.jpg" alt="Random 6">
+      <img class="gallery-img" data-category="random" src="images/random/random7.jpg" alt="Random 7">
     </div>
   </section>
 
-  <!-- GUESTBOOK -->
-  <section id="guestbook" class="section">
-    <h2 class="section-title">📖 Guestbook</h2>
-    <div class="guestbook-box">
-      <input id="nameInput" type="text" placeholder="Nama kamu..." />
-      <textarea id="messageInput" placeholder="Tulis pesan buat angkatan..."></textarea>
-      <button id="saveMessageBtn" class="btn primary">Simpan Pesan</button>
-    </div>
-    <div id="guestbookList" class="guestbook-list"></div>
-  </section>
+  <!-- MOEDSOS -->
+  <section class="section fade-in" id="social">
+
+  <h2 class="section-title">
+    Stay Connected
+  </h2>
+
+  <div class="social-icons">
+
+    <!-- WHATSAPP -->
+    <a href="https://whatsapp.com/channel/0029VbBDflU1yT2HJSTUzy3t"
+    target="_blank"
+
+      <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+    <!-- INSTAGRAM -->
+    <a href="https://www.instagram.com/ventegra23?igsh=OWpwcjl4dmVpcDhr"
+    target="_blank"
+    class="social-card">
+
+      <i class="fa-brands fa-instagram"></i>
+      
+    </a>
+
+    <!-- TIKTOK -->
+    <a href="https://www.tiktok.com/@maknbolmong.official?_r=1&_t=ZS-96CFcXnFIHt"
+    target="_blank"
+    class="social-card">
+
+      <i class="fa-brands fa-tiktok"></i>
+
+    </a>
+
+  </div>
+
+</section>
 
   <!-- LIGHTBOX -->
   <div id="lightbox" class="lightbox hidden">
@@ -162,7 +208,7 @@
   </div>
 
   <footer class="footer">
-    <p>© Ventegra Archive 2026 | dibuat pake nostalgia & sakit kepala</p>
+    <p>© Ventegra Archive 2023-2026</p>
   </footer>
 
   <script src="script.js"></script>
